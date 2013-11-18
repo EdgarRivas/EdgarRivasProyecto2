@@ -1,0 +1,255 @@
+* {
+	font-family: "Franklin Gothic Book", "Calibri";
+}
+
+#logus {
+	width: 65%;
+}
+
+#navsup {
+	background-color: black;
+}
+
+#navsup a {
+	background-color: black;
+	border-bottom: 2px transparent solid;
+	display: inline-block;
+	width: 160px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navsup a:hover {
+	background-image: -webkit-linear-gradient(top, #000000 0%, gold 400%);
+	border-bottom: 2px gold solid;
+	color: gold;
+}
+
+#videos {
+	width: 100%;
+	height: 450px;
+	border: 2px transparent dashed;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-name: tontear;
+	/*-webkit-animation-iteration-count: infinite;*/
+}
+
+@-webkit-keyframes tontear {
+	0% {
+		border: 2px transparent dashed;
+	}
+	13% {
+		border: 2px white dashed;
+	}
+	25% {
+		border: 2px transparent dashed;
+	}
+	37% {
+		border: 2px white dashed;
+	}
+	50% {
+		border: 2px transparent dashed;
+	}
+	62% {
+		border: 2px white dashed;
+	}
+	75% {
+		border: 2px transparent dashed;
+	}
+	87% {
+		border: 2px white dashed;
+	}
+	90% {
+		border: 2px transparent dashed;
+	}
+	100% {
+		border: 2px white dashed;
+	}
+}
+
+#gart {
+	width: 30%;
+	height: 200px;
+	margin: 5px;
+	display: inline-block;
+	border-bottom: 10px white solid;
+}
+
+#gart:hover {
+	border-bottom: 10px gold solid;
+	height: auto;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: upper;
+}
+
+@-webkit-keyframes upper {
+	0% {
+		width: 30%;
+	}
+	5% {
+		width: 50%;
+	}
+	95% {
+		width: 50%;
+	}
+	100% {
+		width: 30%;
+	}
+}
+
+#perfil {
+	width: 60%;
+	border-bottom: 10px white solid;
+}
+
+#perfil:hover {
+	border-bottom: 10px gold solid;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: crecer;
+}
+
+@-webkit-keyframes crecer {
+	0% {
+		width: 60%;
+	}
+	5% {
+		width: 80%;
+	}
+	95% {
+		width: 80%;
+	}
+	100% {
+		width: 60%;
+	}
+}
+
+#titulo {
+	font-size: 50px;
+	color: gold;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+#contenido {
+	font-size: 16px;
+	color: white;
+	text-align: justify;
+}
+
+footer {
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+header {
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+section {
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1190px){
+	body {
+		background-color: #000;
+		margin-left: 15%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 70%;
+		background-image: url("../img/fondo.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	#navsup a {
+		background-color: black;
+		border-bottom: 2px transparent solid;
+		display: inline-block;
+		width: 160px;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+@media screen and (max-width: 1189px) and (min-width: 975px){
+	body {
+		background-color: #000;
+		margin-left: 15%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 70%;
+		background-image: url("../img/fondo.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	#navsup a {
+		background-color: black;
+		border-bottom: 2px transparent solid;
+		display: inline-block;
+		width: 130px;
+		color: white;
+		font-size: 21px;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+@media screen and (max-width: 974px) {
+	body {
+		background-color: #000;
+		margin-left: 5%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 670px;
+		background-image: url("../img/fondo.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	#navsup a {
+		background-color: black;
+		border-bottom: 2px transparent solid;
+		display: inline-block;
+		width: 110px;
+		color: white;
+		font-size: 18px;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+
+#menuflotante {
+	display: block;
+	padding-right: 10px;
+	border: 2px gold dashed;
+	background-color: black;
+	position: fixed;
+	width: 140px;
+	left: -30px;
+	top: 100px;
+	border-radius: 10px;
+}
+
+#menuflotante ul li a{
+	background-color: black;
+	border-bottom: 2px transparent solid;
+	width: 100px;
+	display: block;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menuflotante ul li a:hover {
+	background-image: -webkit-linear-gradient(top, #000000 0%, gold 400%);
+	border-bottom: 2px gold solid;
+	color: gold;
+}
